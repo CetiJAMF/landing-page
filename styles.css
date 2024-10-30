@@ -1,0 +1,141 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilo do header */
+header {
+    background-color: #1c0707;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 20px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Cores de fundo para as seções */
+#sobre {
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+#cursos {
+    background-color: #e6ffe6; /* Verde claro */
+}
+
+#programacao {
+    background-color: #fff5e6; /* Laranja claro */
+}
+
+#temas {
+    background-color: #e6e6ff; /* Roxo claro */
+}
+
+#contato {
+    background-color: #ffe6f0; /* Rosa claro */
+}
+
+/* Estilo dos cards de cursos */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Espaçamento entre os blocos de programação */
+#programacao ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Estilização para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Adiciona espaçamento interno e largura para cada coluna */
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+td {
+    word-wrap: break-word;
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
